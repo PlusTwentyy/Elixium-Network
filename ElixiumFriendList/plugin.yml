@@ -1,0 +1,29 @@
+main: elixiumfriendlist.ElixiumFriendList
+name: ElixiumFriendList
+version: 1.0
+Author: TheInfernoGalaxy and PlusTwentyy
+description: ElixiumFriendList is a plugin for Elixium.
+commands:
+  friendlist:
+  discription: It displays the friends list.
+  usage: /friendlist
+  permission:
+  permission-message: 
+  
+  unfriend:
+  discription: It let's you remove friends from your list.
+  usage: /unfriend
+  permission:
+  permission-message: 
+ 
+  friendadd: 
+    discription: It let's you add a friend to your list.
+    usage: /addfriend
+    permission:
+    permission-message: 
+
+  friend:
+    description: It shows the commands for ElixiumFriendList.
+    usage: /friend
+    permission: 
+    permission-message: 
