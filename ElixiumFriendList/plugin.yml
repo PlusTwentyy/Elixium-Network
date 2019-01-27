@@ -1,6 +1,7 @@
 main: elixiumfriendlist.ElixiumFriendList
 name: ElixiumFriendList
 version: 1.0
+api-version: 1.13.2
 Author: TheInfernoGalaxy and PlusTwentyy
 description: ElixiumFriendList is a plugin for Elixium.
 commands:
