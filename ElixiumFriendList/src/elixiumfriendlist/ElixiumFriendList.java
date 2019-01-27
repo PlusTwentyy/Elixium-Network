@@ -6,21 +6,25 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class ElixiumFriendList extends JavaPlugin {
 	
-	// Fired when plugin is first enabled
+	// Fired when JavaPlugin is first enabled
 	
 	@Override
+	
 	public void onEnable() {
 		
 	}
 	
-	// Fired when plugin is disabled
+	// Fired when JavaPlugin is disabled
 	
 	@Override
+	
 	public void onDisable() {
 		
 	}
+	// Fired when Command is used
 	
 	@Override
+	
 	public boolean onCommand(CommandSender sender,
 			Command command,
 			String label,
@@ -31,6 +35,7 @@ public class ElixiumFriendList extends JavaPlugin {
 		}
 			return false;
 	}
+	
 	public boolean onCommand(CommandSender sender,
 			Command command,
 			String[] args) {
