@@ -29,19 +29,39 @@ public class ElixiumFriendList extends JavaPlugin {
 			Command command,
 			String label,
 			String[] args) {
-		if (command.getName().equalsIgnoreCase("friend")) {
-			sender.sendMessage("you ran /friend!");
+		if (command.getName().equalsIgnoreCase("friendlist")) {
+			sender.sendMessage("you ran /friendlist!");
 			return true;
 		}
 			return false;
 	}
 	
-	public boolean onCommand(CommandSender sender,
+	public boolean onCommand2(CommandSender sender,
+			Command command,
+			String[] args) {
+		if (command.getName().equalsIgnoreCase("friendadd")) {
+			sender.sendMessage("you ran /friendadd");
+			return true;	
+		}
+			return false;
+	}
+	
+	public boolean onCommand3(CommandSender sender,
 			Command command,
 			String[] args) {
 		if (command.getName().equalsIgnoreCase("friendremove")) {
 			sender.sendMessage("you ran /friendremove");
-			return true;	
+			return true;
+		}
+			return false;
+	}
+	
+	public boolean onCommand4(CommandSender sender,
+			Command command,
+			String[] args) {
+		if (command.getName().equalsIgnoreCase("friend")) {
+			sender.sendMessage("you ran /friend");
+			return true;
 		}
 			return false;
 	}
