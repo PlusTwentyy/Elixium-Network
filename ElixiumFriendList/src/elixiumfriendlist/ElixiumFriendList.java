@@ -5,11 +5,15 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class ElixiumFriendList extends JavaPlugin {
-
+	
+	// Fired when plugin is first enabled
+	
 	@Override
 	public void onEnable() {
 		
 	}
+	
+	// Fired when plugin is disabled
 	
 	@Override
 	public void onDisable() {
@@ -21,11 +25,19 @@ public class ElixiumFriendList extends JavaPlugin {
 			Command command,
 			String label,
 			String[] args) {
-		if (command.getName().equalsIgnoreCase("mycommand")) {
-			sender.sendMessage("you ran /mycommand!");
+		if (command.getName().equalsIgnoreCase("friend")) {
+			sender.sendMessage("you ran /friend!");
 			return true;
 		}
-		return false;
+			return false;
 	}
-	
+	public boolean onCommand(CommandSender sender,
+			Command command,
+			String[] args) {
+		if (command.getName().equalsIgnoreCase("friendremove")) {
+			sender.sendMessage("you ran /friendremove");
+			return true;	
+		}
+			return false;
+	}
 }
