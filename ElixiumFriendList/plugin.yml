@@ -12,7 +12,7 @@ commands:
   
   unfriend:
   discription: It let's you remove friends from your list.
-  usage: /unfriend
+  usage: /removefriend
   permission:
   permission-message: 
  
