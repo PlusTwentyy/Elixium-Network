@@ -13,7 +13,7 @@ description: ElixiumFriendList is a plugin for Elixium.
 commands:
   friendlist:
   discription: It displays the friends list.
-  usage: /friendlist
+  usage: /friend list
   permission:
   permission-message: 
   
